@@ -32,14 +32,14 @@
             <key>CFBundleAlternateIcons</key>
             <dict>
               <!-- The name you use in code -->
-              <key>asb_app_private_icon</key>
+              <key>private</key>
               <dict>
                 <key>UIPrerenderedIcon</key>
                 <true/>
                 <key>CFBundleIconFiles</key>
                 <array>
                   <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-                  <string>www/asb_app_private_icon</string>
+                  <string>www/AppIcon/C-26</string>
                 </array>
               </dict>
               <!-- The name you use in code -->
@@ -54,14 +54,14 @@
                 </array>
               </dict>
               <!-- The name you use in code -->
-              <key>asb_app_icon</key>
+              <key>classic</key>
               <dict>
                 <key>UIPrerenderedIcon</key>
                 <true/>
                 <key>CFBundleIconFiles</key>
                 <array>
                   <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-                  <string>www/asb_app_icon</string>
+                  <string>www/AppIcon/C-25</string>
                 </array>
               </dict>
             </dict>
