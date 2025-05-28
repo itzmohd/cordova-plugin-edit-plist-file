@@ -37,9 +37,9 @@
             <true/>
             <key>CFBundleIconFiles</key>
             <array>
-              <string>C-26@2x</string> <!-- For iPhone (120x120) -->
-              <string>C-26-83.5@2x</string> <!-- For iPad Pro (167x167) -->
-              <string>C-26-76@2x</string> <!-- For iPad (152x152) -->
+              <string>C-26-120</string> <!-- For iPhone (120x120) -->
+              <string>C-26-152</string> <!-- For iPad Pro (167x167) -->
+              <string>C-26-167</string> <!-- For iPad (152x152) -->
             </array>
           </dict>
           <!-- Retro icon configuration -->
@@ -49,9 +49,9 @@
             <true/>
             <key>CFBundleIconFiles</key>
             <array>
-              <string>C-30@2x</string>
-              <string>C-30-83.5@2x</string>
-              <string>C-30-76@2x</string>
+              <string>C-30-120x</string>
+              <string>C-30-152</string>
+              <string>C-30-167</string>
             </array>
           </dict>
           <!-- Classic icon configuration -->
@@ -61,9 +61,9 @@
             <true/>
             <key>CFBundleIconFiles</key>
             <array>
-              <string>C-25@2x</string>
-              <string>C-25-83.5@2x</string>
-              <string>C-25-76@2x</string>
+              <string>C-25-120</string>
+              <string>C-25-152</string>
+              <string>C-25-167</string>
             </array>
           </dict>
         </dict>
