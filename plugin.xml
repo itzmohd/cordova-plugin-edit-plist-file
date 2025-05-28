@@ -25,50 +25,51 @@
     
     
     <!-- ios -->
-<platform name="ios">
-    <config-file target="*-Info.plist" parent="CFBundleIcons">
-      <dict>
-        <key>CFBundleAlternateIcons</key>
-        <dict>
-          <!-- Private icon configuration -->
-          <key>private</key>
+    <platform name="ios">
+        
+        <config-file target="*-Info.plist" parent="CFBundleIcons">
           <dict>
-            <key>UIPrerenderedIcon</key>
-            <true/>
-            <key>CFBundleIconFiles</key>
-            <array>
-              <string>C-26-120</string> <!-- For iPhone (120x120) -->
-              <string>C-26-152</string> <!-- For iPad Pro (167x167) -->
-              <string>C-26-167</string> <!-- For iPad (152x152) -->
-            </array>
+            <key>CFBundleAlternateIcons</key>
+            <dict>
+              <!-- The name you use in code -->
+              <key>private</key>
+              <dict>
+                <key>UIPrerenderedIcon</key>
+                <true/>
+                <key>CFBundleIconFiles</key>
+                <array>
+                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
+                  <string>www/AppIcon/C-26</string>
+                </array>
+              </dict>
+              <!-- The name you use in code -->
+              <key>retro</key>
+              <dict>
+                <key>UIPrerenderedIcon</key>
+                <true/>
+                <key>CFBundleIconFiles</key>
+                <array>
+                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
+                  <string>www/AppIcon/C-30</string>
+                </array>
+              </dict>
+              <!-- The name you use in code -->
+              <key>classic</key>
+              <dict>
+                <key>UIPrerenderedIcon</key>
+                <true/>
+                <key>CFBundleIconFiles</key>
+                <array>
+                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
+                  <string>www/AppIcon/C-25</string>
+                </array>
+              </dict>
+            </dict>
           </dict>
-          <!-- Retro icon configuration -->
-          <key>retro</key>
-          <dict>
-            <key>UIPrerenderedIcon</key>
-            <true/>
-            <key>CFBundleIconFiles</key>
-            <array>
-              <string>C-30-120x</string>
-              <string>C-30-152</string>
-              <string>C-30-167</string>
-            </array>
-          </dict>
-          <!-- Classic icon configuration -->
-          <key>classic</key>
-          <dict>
-            <key>UIPrerenderedIcon</key>
-            <true/>
-            <key>CFBundleIconFiles</key>
-            <array>
-              <string>C-25-120</string>
-              <string>C-25-152</string>
-              <string>C-25-167</string>
-            </array>
-          </dict>
-        </dict>
-      </dict>
-    </config-file>
+          </config-file>
+        
+        
+        
     </platform>
     
 </plugin>
