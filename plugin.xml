@@ -25,51 +25,50 @@
     
     
     <!-- ios -->
-    <platform name="ios">
-        
-        <config-file target="*-Info.plist" parent="CFBundleIcons">
+<platform name="ios">
+    <config-file target="*-Info.plist" parent="CFBundleIcons">
+      <dict>
+        <key>CFBundleAlternateIcons</key>
+        <dict>
+          <!-- Private icon configuration -->
+          <key>private</key>
           <dict>
-            <key>CFBundleAlternateIcons</key>
-            <dict>
-              <!-- The name you use in code -->
-              <key>private</key>
-              <dict>
-                <key>UIPrerenderedIcon</key>
-                <true/>
-                <key>CFBundleIconFiles</key>
-                <array>
-                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-                  <string>www/AppIcon/C-26</string>
-                </array>
-              </dict>
-              <!-- The name you use in code -->
-              <key>retro</key>
-              <dict>
-                <key>UIPrerenderedIcon</key>
-                <true/>
-                <key>CFBundleIconFiles</key>
-                <array>
-                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-                  <string>www/AppIcon/C-30</string>
-                </array>
-              </dict>
-              <!-- The name you use in code -->
-              <key>classic</key>
-              <dict>
-                <key>UIPrerenderedIcon</key>
-                <true/>
-                <key>CFBundleIconFiles</key>
-                <array>
-                  <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-                  <string>www/AppIcon/C-25</string>
-                </array>
-              </dict>
-            </dict>
+            <key>UIPrerenderedIcon</key>
+            <true/>
+            <key>CFBundleIconFiles</key>
+            <array>
+              <string>C-26@2x</string> <!-- For iPhone (120x120) -->
+              <string>C-26-83.5@2x</string> <!-- For iPad Pro (167x167) -->
+              <string>C-26-76@2x</string> <!-- For iPad (152x152) -->
+            </array>
           </dict>
-          </config-file>
-        
-        
-        
+          <!-- Retro icon configuration -->
+          <key>retro</key>
+          <dict>
+            <key>UIPrerenderedIcon</key>
+            <true/>
+            <key>CFBundleIconFiles</key>
+            <array>
+              <string>C-30@2x</string>
+              <string>C-30-83.5@2x</string>
+              <string>C-30-76@2x</string>
+            </array>
+          </dict>
+          <!-- Classic icon configuration -->
+          <key>classic</key>
+          <dict>
+            <key>UIPrerenderedIcon</key>
+            <true/>
+            <key>CFBundleIconFiles</key>
+            <array>
+              <string>C-25@2x</string>
+              <string>C-25-83.5@2x</string>
+              <string>C-25-76@2x</string>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </config-file>
     </platform>
     
 </plugin>
