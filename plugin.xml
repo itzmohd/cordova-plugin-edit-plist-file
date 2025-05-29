@@ -30,7 +30,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-26</string>
+							<string>www/AppIcon/private</string>
 						</array>
 					</dict>
 					<!-- The name you use in code -->
@@ -41,7 +41,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-30</string>
+							<string>www/AppIcon/retro</string>
 						</array>
 					</dict>
 					<!-- The name you use in code -->
@@ -52,7 +52,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-25</string>
+							<string>www/AppIcon/classic</string>
 						</array>
 					</dict>
 				</dict>
@@ -70,7 +70,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-26</string>
+							<string>www/AppIcon/private</string>
 						</array>
 					</dict>
 					<!-- The name you use in code -->
@@ -81,7 +81,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-30</string>
+							<string>www/AppIcon/retro</string>
 						</array>
 					</dict>
 					<!-- The name you use in code -->
@@ -92,7 +92,7 @@
 						<key>CFBundleIconFiles</key>
 						<array>
 							<!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
-							<string>www/AppIcon/C-25</string>
+							<string>www/AppIcon/classic</string>
 						</array>
 					</dict>
 				</dict>
