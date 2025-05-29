@@ -32,7 +32,7 @@
             <key>CFBundleAlternateIcons</key>
             <dict>
               <!-- The name you use in code -->
-              <key>classic</key>
+              <key>clasico</key>
               <dict>
                 <key>UIPrerenderedIcon</key>
                 <false/>
@@ -43,7 +43,7 @@
                 </array>
               </dict>
               <!-- The name you use in code -->
-              <key>retro</key>
+              <key>metro</key>
               <dict>
                 <key>UIPrerenderedIcon</key>
                 <false/>
